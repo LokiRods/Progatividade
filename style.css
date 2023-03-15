@@ -5,6 +5,10 @@ body {
 }
 
 section{
+    border: solid transparent 2px;
+    padding: 15px;
+
+    border-color:#8b4b16 ;
     text-align: justify;
 }
 ul {
@@ -75,11 +79,19 @@ nav a {
 }
 
 nav a:hover {
-    color: #0e26ad;
-    background-color: #f59d38;
-    border-radius: 20%;
-    border: 20px;
-    padding: 15px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
+	border-radius: 50em;
+	border: 3px solid transparent;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #10a87d;
+	padding: 0.5em 1.5em;
+	cursor: pointer;
 }
 
 nav a::shadow {
@@ -99,8 +111,21 @@ nav a::shadow {
     width: 150px;
     height: 150px;
     padding: 5px;
-    margin: 60px;
+    margin: 55px;
     border: 20px;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold; 
+    
+    cursor: pointer;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #4395ff, #fffb12, #f00808) 1;
    
     
 
@@ -124,9 +149,22 @@ button {
 
     width: 150px;
     height: 150px;
-    padding: 30px;
-    margin: 38px;
-    border: 35px;
+    padding: 5px;
+    margin: 46px;
+    
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    color: #000000;
+    font-weight: bold; 
+    
+    cursor: pointer;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #4395ff, #fffb12, #f00808) 1;
 
 
 }
@@ -136,11 +174,8 @@ button {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    
-    
-    
+     
 }
-
 
 
 ol {
@@ -165,15 +200,49 @@ ol {
 
 
 #musica li{
-    
     margin: 20px;
-    
-
 }
+
 #musica div {
     display: flex;
     flex-direction: column;
+}
 
 
 
+main{
+    background-color: rgb(128, 64, 12);
+    padding: 30px;
+    border: solid 2px ;
+    border-color: #000000;
+}
+footer{
+    background-color: #8b4b16;
+    padding: auto;
+    border:solid 2px;
+    border-color: #000000;
+    margin: auto;
+}
+
+
+
+#musica p{
+    text-align: center;
+    align-items: flex-end;
+}
+#musica a:active{
+    text-decoration: underline;
+    color: #05359e;
+
+}
+#musica a:hover{
+    text-decoration: underline;
+    color: #05359e;
+
+}
+#musica ol{
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+    
 }
