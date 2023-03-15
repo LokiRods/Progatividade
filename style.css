@@ -20,6 +20,13 @@ a {
     text-decoration: none;
 }
 
+header h1{
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
+
 header img {
     width: 150px;
     height: 150px;
@@ -34,6 +41,10 @@ header img {
 h1 {
     color: #1215ad;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+h3{
+    font-size: 35px;
 }
 
 footer img {
@@ -79,12 +90,19 @@ nav a::shadow {
     text-align: right;
 }
 
+    #Livro img:hover {
+        background-color: #f59d38;
+    }
+
+
 #Livro img{
     width: 150px;
     height: 150px;
-    padding: 20px;
-    margin: 55px;
+    padding: 5px;
+    margin: 60px;
     border: 20px;
+   
+    
 
 }
  .left{
@@ -102,16 +120,60 @@ button {
     height: 30px;
 }
 
+#filme img{
+
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    margin: 38px;
+    border: 35px;
+
+
+}
+
+
+#filme ol{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+
 ol {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
     align-items: center;
     padding: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
-#Livro a {
+.right {
+    display: flex;
+    justify-content: center;
+}
+    
+
+#Livro a:hover {
+    text-decoration: underline;
     color: #1215ad;
+}
+
+
+#musica li{
+    
+    margin: 20px;
+    
+
+}
+#musica div {
+    display: flex;
+    flex-direction: column;
+
+
+
 }
